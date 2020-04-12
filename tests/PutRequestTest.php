@@ -106,8 +106,8 @@ class PutRequestTest extends TestCase
     {
         Storage::fake('avatars');
 
-        $filename = 'avatar.jpg';
-        $file = UploadedFile::fake()->image('avatar.jpg');
+        $filename = 'avatar.png';
+        $file = UploadedFile::fake()->image($filename);
         $payload = [
             'sample_file' => $file,
             'another' => 'samsmasas',
