@@ -1,4 +1,12 @@
 # Laravel PUT Helper
+[![CircleCI](https://circleci.com/gh/djunehor/laravel-put-helper.svg?style=svg)](https://circleci.com/gh/djunehor/laravel-put-helper)
+[![Latest Stable Version](https://poser.pugx.org/djunehor/laravel-put-helper/v/stable)](https://packagist.org/packages/djunehor/laravel-put-helper)
+[![Total Downloads](https://poser.pugx.org/djunehor/laravel-put-helper/downloads)](https://packagist.org/packages/djunehor/laravel-put-helper)
+[![License](https://poser.pugx.org/djunehor/laravel-put-helper/license)](https://packagist.org/packages/djunehor/laravel-put-helper)
+[![Build Status](https://scrutinizer-ci.com/g/djunehor/laravel-put-helper/badges/build.png?b=master)](https://scrutinizer-ci.com/g/djunehor/laravel-put-helper/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/djunehor/laravel-put-helper/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/djunehor/laravel-put-helper/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/djunehor/laravel-put-helper/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/djunehor/laravel-put-helper/?branch=master)
+
 Laravel PUT helper is a package that helps you get input data, as well as uploaded files for PUT requests
 
 - [Laravel PUT Helper](#laravel-sms)
