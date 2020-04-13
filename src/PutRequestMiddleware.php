@@ -45,7 +45,7 @@ class PutRequestMiddleware
 
                         $payload[$key] = $value;
                         $_FILES[$key] = [
-                            'name' => 'MyFile.jpg',
+                            'name' => $filename,
                             'type' => $contentType,
                             'tmp_name' => $filePath,
                             "error" => 0,
