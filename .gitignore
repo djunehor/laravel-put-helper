@@ -3,3 +3,4 @@ vendor
 .phpunit.result.cache
 coverage.clover
 build
+composer.lock
