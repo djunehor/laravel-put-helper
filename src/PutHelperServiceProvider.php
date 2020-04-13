@@ -20,7 +20,7 @@ class PutHelperServiceProvider extends ServiceProvider
         $kernel->pushMiddleware(PutRequestMiddleware::class);
     }
 
-    protected $message = 'Mustr be a file';
+    protected $message = ':attribute be a file';
 
     /**
      * Publishes all the config file this package needs to function.
@@ -29,7 +29,6 @@ class PutHelperServiceProvider extends ServiceProvider
     {
         Validator::extend('put_file', function ($attribute, $value, $parameters, $validator) {
             return (is_object($value) && ($value && get_class($value) == UploadedFile::class));
-            $this->message = "$attribute must be a file!";
         }, $this->message);
     }
 
