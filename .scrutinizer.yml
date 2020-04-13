@@ -23,6 +23,8 @@ tools:
     runs: 4
 
 build:
+  environment:
+    php: 7.2.13
   nodes:
     coverage:
       tests:
